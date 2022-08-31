@@ -73,39 +73,36 @@ Give an example
 Explain what these tests test and why
 
 ```
-Give an example
-```
 
-## Deployment
+## Login
+
+
+    {
+        "message": "Succes",
+        "data": {
+            "username": "murat",
+            "email": "World@gmail.com",
+            "date": "2022-08-31T09:01:00.894Z",
+            "id": "630f23aaa90cbc87750f25e3",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoibXVyYXQiLCJpYXQiOjE2NjE5NTI1NTYsImV4cCI6MTY2MTk1NjE1Nn0.oe9ieId5lcixogp4n5IGNMMcZvZskBnGI6zWGuLAlu0"
+        }
+    }
+
+## Register
 
 Add additional notes about how to deploy this on a live system
 
-## Built With
+    {
+           "message": "Succes",
+    		"data": {
+        	"username": "murat",
+        	"email": "World@gmaxl.com",
+        	"date": "2022-08-31T13:26:56.676Z",
+        	"id": "630f62ffe2895fedc78e8aac"
+    	}
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+Murat Türk
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
