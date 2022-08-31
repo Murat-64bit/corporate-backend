@@ -27,6 +27,8 @@ app.use(
         path: [
             { url: "/users/login", methods: ["POST"] },
             { url: "/users/register", methods: ["POST"] },
+            { url: "/articles/add", methods: ["POST"] },
+            { url: "/articles/remove", methods: ["DELETE"] },
         ],
     })
 );
@@ -34,6 +36,7 @@ app.use(
 app.use(express.json());
 
 app.use('/users', require('./routes/users.routes'));
+app.use('/articles', require('./routes/articles.router'));
 
 app.use(errors.errorHandler);
 
