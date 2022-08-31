@@ -36,5 +36,19 @@ exports.update = (req, res, next) => {
             }
         });
 
+}
 
+
+exports.articlesGet = (req, res, next) => {
+    Article.find()
+        .then(articles => res.json(articles))
+        .catch(err => res.status(404).json({ success: false }));
+}
+
+exports.articlesOne = (req, res, next) => {
+    const requestedPostId = req.params.postId;
+
+     Article.findOne({_id:requestedPostId})
+        .then(articles => res.json(articles))
+        .catch(err => res.status(404).json({ success: false }));
 }
