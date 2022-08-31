@@ -6,6 +6,13 @@ Simple company backend application. You cannot view other pages without JWT Toke
 
 It runs on port 400 in localhost. It gives 1 hour usage token.
 
+#### How to install?
+
+1. Install [MongoDB](https://www.mongodb.com/ "MongoDB")
+2. Extract and install files
+3. `npm i bcryptjs express express-unless jsonwebtoken mongoose mongoose-unique-validator`
+
+
 Example login and registers
 ```
 
@@ -105,4 +112,3 @@ Add additional notes about how to deploy this on a live system
 ## Authors
 
 Murat Türk
-
