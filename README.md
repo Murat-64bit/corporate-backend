@@ -33,21 +33,36 @@ When I specify that I want to add blog post from postman
     "content":"icerikadsa"
 }
 
+# localhost:4000/articles/remove
+{
+    "title":"Baslikasda",
+    "content":"icerikadsa"
+}
+
+# localhost:4000/articles/put
+{
+    "title":"Baslikasda",
+    "content":"icerikadsa"
+}
+
 ## Error: Unauthorized
 
 ```
 
+Otherwise, when I want to login while I am authorized, the responses I get will be as follows:
+
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+{
+    "message": "Succes",
+    "data": {
+        "title": "Baslikasda",
+        "content": "icerikadsa",
+        "id": "630f6240e2895fedc78e8aa8"
+    }
+}
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+### ...
 
 ```
 Give an example
