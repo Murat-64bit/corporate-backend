@@ -72,15 +72,6 @@ Otherwise, when I want to login while I am authorized, the responses I get will 
 ### ...
 
 ```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-
 ## Login
 
 
